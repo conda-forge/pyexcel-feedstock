@@ -24,7 +24,7 @@ requirements:
   run:
     - python
     - lml >=0.0.4
-    - pyexcel-io >=0.5.11
+    - pyexcel-io >=0.5.18
     - texttable >=0.8.2
 
 test:
