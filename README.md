@@ -5,9 +5,13 @@ Home: https://github.com/pyexcel/pyexcel
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyexcel-feedstock/blob/master/LICENSE.txt)
 
 Summary: Single API for reading, manipulating and writing data in csv, ods, xls, xlsx and xlsm files
+
+Development: https://github.com/pyexcel/pyexcel
+
+Documentation: http://pyexcel.readthedocs.io/en/latest/
 
 'A wrapper library that provides one API to read, manipulate and write ' +
 'data in different excel formats' +
