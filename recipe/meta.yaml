@@ -1,6 +1,6 @@
 {% set name = "pyexcel" %}
-{% set version = "0.6.5" %}
-{% set sha256 = "36588573ccb1c86e1a8869e1e9f6b31975a38c13803f015a197c18efd2e685ad" %}
+{% set version = "0.6.6" %}
+{% set sha256 = "39b0bb8f033d9b5523b126cf5a5259d1990ea82b8a23c8eab7aa5e23116803df" %}
 
 package:
   name: {{ name|lower }}
@@ -14,17 +14,17 @@ source:
 build:
   noarch: python
   number: 0
-  script: {{ PYTHON }} -m pip install . -vvv
+  script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
 
   run:
-    - python
+    - python >=3.6
     - lml >=0.0.4
-    - pyexcel-io >=0.5.11
+    - pyexcel-io >=0.6.2
     - texttable >=0.8.2
 
 test:
