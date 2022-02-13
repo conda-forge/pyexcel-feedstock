@@ -32,7 +32,6 @@ test:
   imports:
     - pyexcel
     - pyexcel.docstrings
-    - pyexcel.ext
     - pyexcel.internal
     - pyexcel.internal.sheets
     - pyexcel.plugins
