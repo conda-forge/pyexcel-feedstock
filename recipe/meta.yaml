@@ -1,6 +1,6 @@
 {% set name = "pyexcel" %}
-{% set version = "0.7.0" %}
-{% set sha256 = "fbf0eee5d93b96cef6f19a9f00703f22c0a64f19728d91b95428009a52129709" %}
+{% set version = "0.7.2" %}
+{% set sha256 = "a0d6eb788eb06e81a1b438c0e7c00fee080465f3397fbcffe5cec34aebe6a32a" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
